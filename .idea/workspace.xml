@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="WEB-5 create all App">
+    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="create model &#10;create admin">
       <change afterPath="$PROJECT_DIR$/user/migrations/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shopApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopApp/settings.py" afterDir="false" />
@@ -97,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719653174841</updated>
-      <workItem from="1719653176171" duration="9404000" />
+      <workItem from="1719653176171" duration="9708000" />
     </task>
     <task id="LOCAL-00001" summary="startApp">
       <option name="closed" value="true" />
@@ -115,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719655704443</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create model &#10;create admin">
+      <option name="closed" value="true" />
+      <created>1719663569606</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719663569606</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="startApp" />
     <MESSAGE value="WEB-5 create all App" />
-    <option name="LAST_COMMIT_MESSAGE" value="WEB-5 create all App" />
+    <MESSAGE value="create model &#10;create admin" />
+    <option name="LAST_COMMIT_MESSAGE" value="create model &#10;create admin" />
   </component>
 </project>
