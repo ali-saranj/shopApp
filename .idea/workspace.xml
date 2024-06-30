@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="fix">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shopApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shopApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/serializer/CategorySerializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/serializer/ProductSerializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/views/CategoryView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/views/ProductView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/views/UserView.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shoping/migrations/0002_alter_order_complete_alter_order_complete_date.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoping/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoping/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoping/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoping/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +34,13 @@
       <Sdk />
     </option>
     <option name="myModuleName" value="shopApp" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,8 +73,9 @@
   "keyToString": {
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ali/PycharmProjects/shopApp",
+    "last_opened_file_path": "/home/ali/PycharmProjects/shopApp/api/serializer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -69,6 +87,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/serializer" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -119,6 +138,10 @@
       <workItem from="1719664187536" duration="1222000" />
       <workItem from="1719665417113" duration="731000" />
       <workItem from="1719677623321" duration="799000" />
+      <workItem from="1719678866016" duration="7000" />
+      <workItem from="1719685634561" duration="761000" />
+      <workItem from="1719752809154" duration="47000" />
+      <workItem from="1719752863648" duration="6260000" />
     </task>
     <task id="LOCAL-00001" summary="startApp">
       <option name="closed" value="true" />

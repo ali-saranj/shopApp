@@ -6,8 +6,8 @@ from django.db import models
 class Order(models.Model):
     customer = models.ForeignKey('user.Customer', on_delete=models.PROTECT, related_name='orders')
     date_ordered = models.DateTimeField(auto_now_add=True)
-    complete = models.BooleanField(default=False)
-    complete_date = models.DateTimeField(null=True, blank=True)
+    complete = models.BooleanField(default=False,editable=False)
+    complete_date = models.DateTimeField(null=True, blank=True, editable=False)
     pay_method = models.IntegerField(choices=[(1, 'Cash'), (2, 'Online')], default=1)
     products = models.ManyToManyField('product.Product', related_name='orders')
 
