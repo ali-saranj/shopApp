@@ -39,7 +39,7 @@ urlpatterns = (
         # path('categorySearch/<str:name>/<str:description>', CategorySearch.as_view(), name='categorySearch'),
 
         # orderLink
-        path('orderList/', OrderList.as_view(), name='orderList'),
+        # path('orderList/', OrderList.as_view(), name='orderList'),
         # path('orderDetail/<int:pk>', OrderDetail.as_view(), name='orderDetail'),
         # path('orderSearch/<str:name>/<str:description>', OrderSearch.as_view(), name='orderSearch'),
         # path('orderCreate/', OrderCreate.as_view(), name='orderCreate'),
