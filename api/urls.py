@@ -23,29 +23,34 @@ import api.views.UserView
 from api.views.ProductView import *
 from api.views.CategoryView import *
 from api.views.OrderView import *
+from api.views.UserView import *
+from api.views.OrderView import *
+
 urlpatterns = (
     [
-        #productLink
+        # productLink
         path('productList/', ProductList.as_view(), name='productList'),
         path('productDetail/<int:pk>', ProductDetail.as_view(), name='productDetail'),
-        path('productSearch/<str:name>/<str:description>', ProductSearch.as_view(), name='productSearch'),
+        path('productSearch/', ProductSearch.as_view(), name='productSearch'),
 
-        #categoryLink
+        # categoryLink
         path('categoryList/', CategoryList.as_view(), name='categoryList'),
         path('categoryDetail/<int:pk>', CategoryDetail.as_view(), name='categoryDetail'),
         # path('categorySearch/<str:name>/<str:description>', CategorySearch.as_view(), name='categorySearch'),
 
-        #orderLink
-        # path('orderList/', OrderList.as_view(), name='orderList'),
+        # orderLink
+        path('orderList/', OrderList.as_view(), name='orderList'),
         # path('orderDetail/<int:pk>', OrderDetail.as_view(), name='orderDetail'),
         # path('orderSearch/<str:name>/<str:description>', OrderSearch.as_view(), name='orderSearch'),
         # path('orderCreate/', OrderCreate.as_view(), name='orderCreate'),
         # path('orderUpdate/<int:pk>', OrderUpdate.as_view(), name='orderUpdate'),
         # path('orderDelete/<int:pk>', OrderDelete.as_view(), name='orderDelete'),
 
+        # userLink
+        path('register_user/', api.views.UserView.Register_user, name="user_register"),
+        path('login_user/', api.views.UserView.login_user, name="user_login"),
 
-        #userLink
-        path('register_user/' , api.views.UserView.Register_user , name = "user_register"),
-        path('login_user/' , api.views.UserView.login_user , name = "user_login")
+        # ali
+        path('login/', LoginUser.as_view(), name="ali")
     ]
 )
