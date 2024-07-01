@@ -45,7 +45,7 @@ urlpatterns = (
 
 
         #userLink
-        path('register_user/' , api.views.UserView.Register_user , name = "user_register"),
+        path('register_user/' , api.views.UserView.register_user , name = "user_register"),
         path('login_user/' , api.views.UserView.login_user , name = "user_login")
     ]
 )
