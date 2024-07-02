@@ -10,6 +10,6 @@ class OrderAdmin(admin.ModelAdmin):
         return ", ".join([product.name for product in obj.products.all()])
 
     def _customer(self, obj):
-        return obj.customer.username
+        return obj.customer.user.username
 
     list_display = ('_customer', 'date_ordered', 'complete', 'complete_date', '_products')

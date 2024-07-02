@@ -4,10 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="Create_Api_order">
-      <change afterPath="$PROJECT_DIR$/user/migrations/0002_alter_customer_username.py" afterDir="false" />
+    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="create api">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shopApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shopApp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializer/OrderSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializer/OrderSerializer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializer/UserSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializer/UserSerializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views/CategoryView.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/CategoryView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views/OrderView.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/OrderView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views/ProductView.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/ProductView.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views/UserView.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/UserView.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requriment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requriment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoping/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoping/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoping/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoping/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,12 +38,14 @@
     </option>
     <option name="myModuleName" value="shopApp" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
     </option>
+  </component>
+  <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -40,6 +54,9 @@
     &quot;assignee&quot;: &quot;ali-saranj&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="b2512a04-3eea-47bd-9ff4-d5b63e3447b2" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ali-saranj/shopApp.git&quot;,
@@ -50,31 +67,32 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2iY2Qb4tsxLNox4RteCwvOozIra" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Django Server.shopApp.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Api__order",
-    "last_opened_file_path": "/home/ali/PycharmProjects/shopApp",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/ali/PycharmProjects/shopApp/api/serializer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "PyConsoleConfigurable.Django Console",
+    "settings.editor.splitter.proportion": "0.29289544",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/serializer" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -86,8 +104,10 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="shopApp.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (pythonProject)" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -107,8 +127,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
-        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18034.82" />
+        <option value="bundled-python-sdk-975db3bf15a3-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -124,11 +144,14 @@
       <workItem from="1719664187536" duration="1222000" />
       <workItem from="1719665417113" duration="731000" />
       <workItem from="1719677623321" duration="799000" />
-      <workItem from="1719753098760" duration="4204000" />
-      <workItem from="1719827611784" duration="3682000" />
-      <workItem from="1719831464090" duration="900000" />
-      <workItem from="1719832503661" duration="45000" />
-      <workItem from="1719836427992" duration="1754000" />
+      <workItem from="1719678866016" duration="7000" />
+      <workItem from="1719685634561" duration="761000" />
+      <workItem from="1719752809154" duration="47000" />
+      <workItem from="1719752863648" duration="6703000" />
+      <workItem from="1719826754547" duration="3504000" />
+      <workItem from="1719831263315" duration="57000" />
+      <workItem from="1719831956707" duration="1076000" />
+      <workItem from="1719918041057" duration="11216000" />
     </task>
     <task id="LOCAL-00001" summary="startApp">
       <option name="closed" value="true" />
@@ -186,31 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719665330289</updated>
     </task>
-    <task id="LOCAL-00008" summary="Create_Api_order">
+    <task id="LOCAL-00008" summary="create api">
       <option name="closed" value="true" />
-      <created>1719831136619</created>
+      <created>1719759409304</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1719831136619</updated>
+      <updated>1719759409304</updated>
     </task>
-    <task id="LOCAL-00009" summary="Create_Api_order">
+    <task id="LOCAL-00009" summary="create api">
       <option name="closed" value="true" />
-      <created>1719832230178</created>
+      <created>1719759547948</created>
       <option name="number" value="00009" />
       <option name="presentableId" value="LOCAL-00009" />
       <option name="project" value="LOCAL" />
-      <updated>1719832230178</updated>
+      <updated>1719759547948</updated>
     </task>
-    <task id="LOCAL-00010" summary="Create_Api_order">
-      <option name="closed" value="true" />
-      <created>1719836822080</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1719836822080</updated>
-    </task>
-    <option name="localTasksCounter" value="11" />
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,12 +243,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="startApp" />
     <MESSAGE value="WEB-5 create all App" />
     <MESSAGE value="create model &#10;create admin" />
     <MESSAGE value="fix" />
-    <MESSAGE value="Create_Api_order" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create_Api_order" />
+    <MESSAGE value="create api" />
+    <option name="LAST_COMMIT_MESSAGE" value="create api" />
   </component>
 </project>
