@@ -2,8 +2,6 @@ from rest_framework.permissions import IsAuthenticated
 from shoping.models import Order
 from api.serializer.OrderSerializer import OrderSerializer, OrderSerializerList, OrderSerializerCreate
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
-from rest_framework.authtoken.models import Token
-from django.contrib.auth.models import User
 
 
 # get_all_order

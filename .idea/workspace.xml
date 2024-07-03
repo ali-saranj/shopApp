@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="recreate api">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializer/OrderSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializer/OrderSerializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/OrderView.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/OrderView.py" afterDir="false" />
-    </list>
+    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="finish order" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -141,7 +136,7 @@
       <workItem from="1719831956707" duration="1076000" />
       <workItem from="1719918041057" duration="11453000" />
       <workItem from="1719932474023" duration="1189000" />
-      <workItem from="1720031303060" duration="1681000" />
+      <workItem from="1720031303060" duration="1984000" />
     </task>
     <task id="LOCAL-00001" summary="startApp">
       <option name="closed" value="true" />
@@ -223,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719929470322</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finish order">
+      <option name="closed" value="true" />
+      <created>1720033263820</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720033263820</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,6 +250,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="create api" />
     <MESSAGE value="recreate api" />
-    <option name="LAST_COMMIT_MESSAGE" value="recreate api" />
+    <MESSAGE value="finish order" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish order" />
   </component>
 </project>
