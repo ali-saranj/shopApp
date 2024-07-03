@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="create api">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shopApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shopApp.iml" afterDir="false" />
+    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="recreate api">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/serializer/OrderSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializer/OrderSerializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/serializer/UserSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializer/UserSerializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/CategoryView.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/CategoryView.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/views/OrderView.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/OrderView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/ProductView.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/ProductView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/views/UserView.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views/UserView.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requriment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requriment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopApp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoping/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoping/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shoping/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/shoping/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,24 +60,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Django Server.shopApp.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/ali/PycharmProjects/shopApp/api/serializer",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "PyConsoleConfigurable.Django Console",
-    "settings.editor.splitter.proportion": "0.29289544",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.shopApp.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ali/PycharmProjects/shopApp/api/serializer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Django Console&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.29289544&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/api/serializer" />
@@ -151,7 +139,9 @@
       <workItem from="1719826754547" duration="3504000" />
       <workItem from="1719831263315" duration="57000" />
       <workItem from="1719831956707" duration="1076000" />
-      <workItem from="1719918041057" duration="11216000" />
+      <workItem from="1719918041057" duration="11453000" />
+      <workItem from="1719932474023" duration="1189000" />
+      <workItem from="1720031303060" duration="1681000" />
     </task>
     <task id="LOCAL-00001" summary="startApp">
       <option name="closed" value="true" />
@@ -225,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719759547948</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="recreate api">
+      <option name="closed" value="true" />
+      <created>1719929470321</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1719929470322</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,6 +246,7 @@
     <MESSAGE value="create model &#10;create admin" />
     <MESSAGE value="fix" />
     <MESSAGE value="create api" />
-    <option name="LAST_COMMIT_MESSAGE" value="create api" />
+    <MESSAGE value="recreate api" />
+    <option name="LAST_COMMIT_MESSAGE" value="recreate api" />
   </component>
 </project>

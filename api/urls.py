@@ -36,7 +36,7 @@ urlpatterns = (
 
         # orderLink
         path('orders/', OrderView.as_view(), name='order-view'),
-        # path('orderDetail/<int:pk>', OrderDetail.as_view(), name='orderDetail'),
+        path('order/<int:pk>', OrderDetail.as_view(), name='orderDetail'),
         # path('orderSearch/<str:name>/<str:description>', OrderSearch.as_view(), name='orderSearch'),
         # path('orderCreate/', OrderCreate.as_view(), name='orderCreate'),
         # path('orderUpdate/<int:pk>', OrderUpdate.as_view(), name='orderUpdate'),

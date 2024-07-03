@@ -1,23 +1,31 @@
-from rest_framework import status
-from rest_framework.decorators import api_view
-from rest_framework.permissions import IsAuthenticated, AllowAny
-from rest_framework.authentication import TokenAuthentication
-from rest_framework.response import Response
-from rest_framework.views import APIView
+from rest_framework.permissions import IsAuthenticated
 from shoping.models import Order
-from product.models import Product, Category
-from api.serializer.OrderSerializer import OrderSerializer, OrderSerializerList
-from rest_framework.generics import ListCreateAPIView
+from api.serializer.OrderSerializer import OrderSerializer, OrderSerializerList, OrderSerializerCreate
+from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
+from rest_framework.authtoken.models import Token
+from django.contrib.auth.models import User
 
 
 # get_all_order
 class OrderView(ListCreateAPIView):
-    permission_classes = [AllowAny]
-    queryset = Order.objects.all()
+    permission_classes = [IsAuthenticated]
+
+    def get_queryset(self):
+        queryset = Order.objects.all().filter(customer__user=self.request.user)
+        return queryset
 
     def get_serializer(self, *args, **kwargs):
         if self.request.method == 'GET':
             serializer_class = OrderSerializerList
         else:
-            serializer_class = OrderSerializer
+            serializer_class = OrderSerializerCreate
         return serializer_class(*args, **kwargs)
+
+
+class OrderDetail(RetrieveUpdateDestroyAPIView):
+    def get_queryset(self):
+        queryset = Order.objects.all().filter(customer__user=self.request.user)
+        return queryset
+
+    permission_classes = [IsAuthenticated]
+    serializer_class = OrderSerializer
