@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.utils.html import format_html
 
-from product.models import Category, Product
+from product.models import Category, Product,Comment
 
 
 # Register your models here.
@@ -29,3 +29,9 @@ class ProductAdmin(admin.ModelAdmin):
     list_display = ('name', '_description', 'price', 'stock', 'category', '_image')
 
     search_fields = ('pk', 'name', 'description')
+
+
+@admin.register(Comment)
+class CommentAdmin(admin.ModelAdmin):
+    list_display = ('product', 'customer', 'content', 'created_at', 'updated_at')
+    search_fields = ('product', 'customer', 'content')

@@ -22,6 +22,7 @@ from api.views.UserView import *
 from api.views.ProductView import *
 from api.views.CategoryView import *
 from api.views.OrderView import *
+from api.views.CommentView import *
 
 urlpatterns = (
     [
@@ -42,6 +43,8 @@ urlpatterns = (
         # path('orderUpdate/<int:pk>', OrderUpdate.as_view(), name='orderUpdate'),
         # path('orderDelete/<int:pk>', OrderDelete.as_view(), name='orderDelete'),
 
+        # commentLink
+        path('comments/', CommentList.as_view(), name='commentList'),
         # userLink
         path('register_user/', UserRegister.as_view(), name="user_register"),
         path('login_user/', UserLogin.as_view(), name="user_login"),
