@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="finish order">
-      <change afterPath="$PROJECT_DIR$/api/serializer/CommentSerializer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/views/CommentView.py" afterDir="false" />
+    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="add comment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/serializer/ProductSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializer/ProductSerializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product/migrations/0002_alter_category_image_alter_product_image.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/shopApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoping/migrations/0002_alter_order_complete_alter_order_complete_date.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoping/migrations/0003_remove_order_customer_remove_order_products.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoping/migrations/0004_order_customer_order_products.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shoping/migrations/0005_alter_order_customer_alter_order_products.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0002_alter_customer_username.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0003_remove_customer_username_customer_user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/migrations/0004_remove_customer_id_alter_customer_user.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +150,9 @@
       <workItem from="1719918041057" duration="11453000" />
       <workItem from="1719932474023" duration="1189000" />
       <workItem from="1720031303060" duration="2167000" />
-      <workItem from="1720095252328" duration="1847000" />
+      <workItem from="1720095252328" duration="2271000" />
+      <workItem from="1720097531768" duration="4434000" />
+      <workItem from="1720261020954" duration="3102000" />
     </task>
     <task id="LOCAL-00001" summary="startApp">
       <option name="closed" value="true" />
@@ -243,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720033316546</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add comment">
+      <option name="closed" value="true" />
+      <created>1720097257091</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720097257091</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +283,7 @@
     <MESSAGE value="create api" />
     <MESSAGE value="recreate api" />
     <MESSAGE value="finish order" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish order" />
+    <MESSAGE value="add comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comment" />
   </component>
 </project>
