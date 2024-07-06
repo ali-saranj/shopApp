@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="add comment">
+    <list default="true" id="40297bcc-9e46-4940-a8ba-8e0ab21a6e73" name="Changes" comment="add Image and price">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/serializer/ProductSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/serializer/ProductSerializer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/admin.py" afterDir="false" />
@@ -152,7 +152,7 @@
       <workItem from="1720031303060" duration="2167000" />
       <workItem from="1720095252328" duration="2271000" />
       <workItem from="1720097531768" duration="4434000" />
-      <workItem from="1720261020954" duration="3102000" />
+      <workItem from="1720261020954" duration="3425000" />
     </task>
     <task id="LOCAL-00001" summary="startApp">
       <option name="closed" value="true" />
@@ -258,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720097257091</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add Image and price">
+      <option name="closed" value="true" />
+      <created>1720265872741</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720265872741</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +292,7 @@
     <MESSAGE value="recreate api" />
     <MESSAGE value="finish order" />
     <MESSAGE value="add comment" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comment" />
+    <MESSAGE value="add Image and price" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Image and price" />
   </component>
 </project>
